@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Musicorum.Common\Musicorum.Common.csproj" />
+    <ProjectReference Include="..\Musicorum.Data\Musicorum.Data.csproj" />
+  </ItemGroup>
+
+</Project>

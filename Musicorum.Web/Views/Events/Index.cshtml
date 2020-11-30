@@ -1,0 +1,7 @@
+﻿@using Musicorum.Web.Models.Events
+
+@model EventsPageModel
+
+<div class="all-news-container">
+    @{await Html.RenderPartialAsync("_EventsList", Model);}
+</div>
